@@ -1,0 +1,25 @@
+$white: white;
+$purple: #d70f64;
+
+@mixin my-flex-row-between {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin my-flex-row-around {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin my-flex-column {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
