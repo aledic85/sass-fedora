@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 100vw;
   height: 100vh;
 }
 
@@ -22,11 +21,12 @@ nav {
   height: 10%;
   width: 100%;
   padding: 20px;
+  background-color: white;
   border-bottom: 1px solid #d70f64;
 }
 
 nav .nav-right {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +45,7 @@ nav .nav-right .drop-menu {
   right: 2%;
   padding: 10px;
   display: none;
+  background-color: white;
 }
 
 nav .nav-right .drop-menu a {
@@ -52,7 +53,7 @@ nav .nav-right .drop-menu a {
 }
 
 nav .nav-left {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -63,5 +64,81 @@ nav .nav-left {
 nav .nav-left img {
   width: 40%;
   height: 100%;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
+
+section .slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+section .slider .img-cont1 {
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_5.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+
+section .slider .img-cont1 h1 {
+  color: white;
+  font-size: 42px;
+}
+
+section .slider .img-cont2 {
+  background-image: url("https://www.foodora.com/wp-content/uploads/2017/08/4000x2000_parallax_4-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+
+section .slider .img-cont2 h1 {
+  color: white;
+  font-size: 42px;
+}
+
+section .slider .active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .slider .country-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  height: 18%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section .slider .country-wrapper span {
+  color: white;
+}
+
+section .slider .country-wrapper .flag-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .slider .country-wrapper .flag-container img {
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 4px;
+  width: 65px;
 }
 

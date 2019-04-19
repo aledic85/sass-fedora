@@ -8,7 +8,6 @@
 
 body {
 
-  width: 100vw;
   height: 100vh;
 }
 
@@ -22,14 +21,12 @@ nav {
   height: 10%;
   width: 100%;
   padding: 20px;
-
+  background-color: $white;
   border-bottom: 1px solid $purple;
 
   .nav-right {
 
-    width: 50%;
-    height: 100%;
-
+    @include my-width-40;
     @include my-flex-row-between;
 
     a {
@@ -45,6 +42,7 @@ nav {
       right: 2%;
       padding: 10px;
       display: none;
+      background-color: $white;
 
       a {
 
@@ -55,15 +53,12 @@ nav {
 
   .nav-left {
 
-    width: 50%;
-    height: 100%;
-
+    @include my-width-40;
     @include my-flex-row-between;
 
     img {
 
-      width: 40%;
-      height: 100%;
+      @include my-width-40;
     }
   }
 }
