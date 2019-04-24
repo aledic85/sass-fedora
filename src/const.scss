@@ -22,12 +22,28 @@ $purple: #d70f64;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 @mixin my-h1 {
 
   color: $white;
   font-size: 42px;
+}
+
+@mixin my-h2 {
+
+  color: $purple;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+@mixin my-p-white {
+
+  color: $white;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 @mixin my-img-cont {
@@ -50,4 +66,15 @@ $purple: #d70f64;
 
   width: 100%;
   height: 100%;
+}
+
+@mixin my-button-purple {
+
+  background: $purple;
+  padding: 0px 15px;
+  color: $white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
 }

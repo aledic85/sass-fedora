@@ -14,8 +14,7 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 100;
   height: 10%;
@@ -140,5 +139,173 @@ section .slider .country-wrapper .flag-container img {
   padding-top: 5px;
   border-radius: 4px;
   width: 65px;
+}
+
+section .about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60%;
+}
+
+section .about h2 {
+  color: #d70f64;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section .about p {
+  width: 50%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+section .about button {
+  background: #d70f64;
+  padding: 0px 15px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+section .careers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+section .careers h2 {
+  color: #d70f64;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section .careers p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section .careers button {
+  background: #d70f64;
+  padding: 0px 15px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+section .press {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+section .press h2 {
+  color: #d70f64;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section .press p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 57%;
+}
+
+section .press button {
+  background: #d70f64;
+  padding: 0px 15px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+}
+
+section .contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #d70f64;
+  height: 60%;
+  text-align: center;
+}
+
+section .contact h2 {
+  color: #d70f64;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+section .contact p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 57%;
+}
+
+section .contact button {
+  background: #d70f64;
+  padding: 0px 15px;
+  color: white;
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  background: white;
+  color: #d70f64;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 30%;
+  background: white;
+}
+
+footer .footer-left img {
+  width: 80%;
+}
+
+footer .footer-right .social-cont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-right .social-cont img {
+  padding-left: 10px;
+}
+
+footer .footer-right a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
 }
 

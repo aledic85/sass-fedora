@@ -2,6 +2,8 @@ section {
 
   @include my-width-100;
 
+// First row - slider
+
   .slider {
 
     position: relative;
@@ -68,5 +70,113 @@ section {
     }
   }
 
+// Second row - about us
 
+  .about {
+
+    @include my-flex-column;
+    text-align: center;
+    height: 60%;
+
+    h2 {
+
+      @include my-h2;
+    }
+
+    p {
+
+      width: 50%;
+      font-size: 18px;
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    button {
+
+      @include my-button-purple;
+    }
+  }
+
+// Third row - careers
+
+  .careers {
+
+    @include my-flex-column;
+    background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
+    background-size: cover;
+    height: 100%;
+
+    h2 {
+
+      @include my-h2;
+    }
+
+    p {
+
+      @include my-p-white;
+    }
+
+    button {
+
+      @include my-button-purple;
+    }
+  }
+
+// Fourth row - press
+
+  .press {
+
+    @include my-flex-column;
+    background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+
+    h2 {
+
+      @include my-h2;
+    }
+
+    p {
+
+      @include my-p-white;
+      width: 57%;
+    }
+
+    button {
+
+      @include my-button-purple;
+    }
+
+  }
+
+  // Fifth row - contact
+
+    .contact {
+
+      @include my-flex-column;
+      background: $purple;
+      height: 60%;
+      text-align: center;
+
+      h2 {
+
+        @include my-h2;
+        color: $white;
+      }
+
+      p {
+
+        @include my-p-white;
+        width: 57%;
+      }
+
+      button {
+
+        @include my-button-purple;
+        background: $white;
+        color: $purple;
+      }
+
+    }
 }
