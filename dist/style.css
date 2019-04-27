@@ -44,6 +44,7 @@ nav .nav-right .drop-menu {
   right: 2%;
   padding: 10px;
   display: none;
+  border-radius: 5px;
   background-color: white;
 }
 
